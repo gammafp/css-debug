@@ -1,5 +1,6 @@
 # CSS-DEBUG
 A tool for debugging CSS and HTML boxes.
+
 ![Base image](https://github.com/gammafp/css-debug/blob/main/page-test/img/base.png?raw=true)
 
 ### How to use it?
