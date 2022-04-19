@@ -1,0 +1,29 @@
+{
+  "name": "css-debug",
+  "version": "0.0.01-beta",
+  "description": "A tool for debugging CSS and HTML boxes",
+  "build": "node-sass --watch ",
+  "scripts": {
+    "build": "node buildToCSS.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gammafp/css-debug.git"
+  },
+  "keywords": [
+    "css",
+    "html",
+    "debug",
+    "box",
+    "css-debug"
+  ],
+  "author": "Francisco José Pereira Alvarado - Gammafp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gammafp/css-debug/issues"
+  },
+  "homepage": "https://github.com/gammafp/css-debug#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

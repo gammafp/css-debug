@@ -1,0 +1,10 @@
+.debug-no-bg {
+    background: none;
+    &:hover {
+        background: none;
+    }
+}
+
+.debug-outline-none {
+    outline: none;
+}

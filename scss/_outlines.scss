@@ -1,0 +1,34 @@
+@import "./colors";
+$outlineSize: 1px;
+$alphaWeight: 0.2;
+
+/*
+CSS Variables
+--outline-size
+--alpha
+--color
+*/
+
+.debug {
+    outline: var(--outline-size, $outlineSize) solid red;
+    background-color: var(--color, rgba(255, 0, 0, var(--alpha, $alphaWeight)));
+  &--hover {
+    &:hover {
+      outline: var(--outline-size, $outlineSize) solid red;
+      background-color: var(--color, rgba(255, 0, 0, var(--alpha, $alphaWeight)));
+    }
+  }
+}
+
+@each $key, $color in $colors-dictionary {
+  .debug-#{$key} {
+    outline: var(--outline-size, $outlineSize) solid #{$color};
+    background-color:  var(--color, rgba(red($color), green($color), blue($color), var(--alpha, $alphaWeight)));
+    &--hover {
+      &:hover {
+        outline: var(--outline-size, $outlineSize) solid #{$color};
+        background-color: var(--color, rgba(red($color), green($color), blue($color), var(--alpha, $alphaWeight)));
+      }
+    }
+  }
+}
