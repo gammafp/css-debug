@@ -18,6 +18,12 @@ css-debug have one class called debug-*, you can add color by replacing the aste
 ```
 ![use debug](https://github.com/gammafp/css-debug/blob/main/page-test/img/example-implementation.png?raw=true)
 
+You can use hover debug with: (debug-color--hover) **debug-red--hover**:
+```html
+<div class="debug-deepskyblue debug-red--hover"></div>
+```
+![Hover](https://i.gyazo.com/3d98868a48e20e6923416dc65a3ecc75.gif)
+
 You can remove the background with **no-bg**:
 ```html
 <div class="debug-deepskyblue debug-no-bg"></div>

@@ -1,6 +1,6 @@
 {
   "name": "css-debug",
-  "version": "0.0.01-beta",
+  "version": "0.0.1-beta",
   "description": "A tool for debugging CSS and HTML boxes",
   "build": "node-sass --watch ",
   "scripts": {
